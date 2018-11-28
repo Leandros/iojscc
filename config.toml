@@ -1,0 +1,32 @@
+baseURL = "https://iojcss.org/"
+languageCode = "en-us"
+title = "The International Obfuscated JavaScript Code Contest"
+theme = "xmin"
+publishDir = "docs"
+
+[permalinks]
+post = "/posts/:year/:month/:day/:slug/"
+note = "/notes/:year/:month/:day/:slug/"
+
+[params]
+footer = "Copyright &copy; 2018 [Arvid Gerstmann](https://arvid.io) | [Twitter](https://twitter.com/ArvidGerstmann)"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Rules"
+url = "/rules"
+weight = 2
+
+[[menu.main]]
+name = "FAQ"
+url = "/faq"
+weight = 3
+
+[[menu.main]]
+name = "Winner"
+url = "/winner"
+weight = 4

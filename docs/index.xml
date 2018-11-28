@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on The International Obfuscated JavaScript Code Contest</title>
+    <link>https://iojcss.org/</link>
+    <description>Recent content in Home on The International Obfuscated JavaScript Code Contest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://iojcss.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://iojcss.org/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iojcss.org/faq/</guid>
+      <description>Q: Is this related to the IOCCC?
+A: It&amp;rsquo;s been inspired by it, but it&amp;rsquo;s completely unrelated.
+Q: Who are the judges?
+A: Judges are yet to be announced.
+Q: How do I enter?
+A: See section How To Enter.
+Q: How often will the contest run?
+A: The contest will open roughly once per year. Watch this space for the announcement.
+Q: How can I contact the people behind this?</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://iojcss.org/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iojcss.org/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rules</title>
+      <link>https://iojcss.org/rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iojcss.org/rules/</guid>
+      <description>To make sure your submission will be considered, we ask you to follow these rules.
+Please read them carefully before submission.
+ §1.0: Submissions must be complete programs
+Any submission which fails to execute 2 out of 3 times will be disqualified.
+ §2.0: Submissions must satisfy the size requirements
+ §2.1: The size of your submission must not exceed 4096 bytes
+ §2.2: The number of bytes, excluding whitespace (space, tab, newline, return, formfeed) and certain control characters (;, {, }) followed by whitespace, while counting the JavaScript keywords as 1 byte, must not exceed 2048.</description>
+    </item>
+    
+    <item>
+      <title>Size Tool</title>
+      <link>https://iojcss.org/size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iojcss.org/size/</guid>
+      <description>Copy your code below, and click submit.
+ var keywords = [ &#39;break&#39;, &#39;case&#39;, &#39;catch&#39;, &#39;class&#39;, &#39;const&#39;, &#39;continue&#39;, &#39;debugger&#39;, &#39;default&#39;, &#39;delete&#39;, &#39;do&#39;, &#39;else&#39;, &#39;export&#39;, &#39;extends&#39;, &#39;finally&#39;, &#39;for&#39;, &#39;function&#39;, &#39;if&#39;, &#39;import&#39;, &#39;in&#39;, &#39;instanceof&#39;, &#39;new&#39;, &#39;return&#39;, &#39;super&#39;, &#39;switch&#39;, &#39;this&#39;, &#39;throw&#39;, &#39;try&#39;, &#39;typeof&#39;, &#39;var&#39;, &#39;void&#39;, &#39;while&#39;, &#39;with&#39;, &#39;yield&#39;, &#39;await&#39;, &#39;null&#39;, &#39;true&#39;, &#39;false&#39;, ]; function isSpace(c) { return c === &#39; &#39; || c === &#39;\t&#39; || c === &#39;\n&#39; || c === &#39;\r&#39; || c === &#39;\f&#39;; } function isLowercase(c) { c = c.</description>
+    </item>
+    
+    <item>
+      <title>Winner</title>
+      <link>https://iojcss.org/winner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iojcss.org/winner/</guid>
+      <description>Contest currently ongoing. Winners will be announced after closing.</description>
+    </item>
+    
+  </channel>
+</rss>
