@@ -5,8 +5,7 @@ Title: Rules
 To make sure your submission will be considered, we ask you to follow these rules.<br>
 Please read them carefully before submission.
 
-- **§1.0: Submissions must be complete programs**<br>
-Any submission which fails to execute 2 out of 3 times will be disqualified.
+- **§1.0: Submissions must be complete programs**
 
 - **§2.0: Submissions must satisfy the size requirements**
 

@@ -45,7 +45,6 @@ Q: How can I contact the people behind this?</description>
       <description>To make sure your submission will be considered, we ask you to follow these rules.
 Please read them carefully before submission.
  §1.0: Submissions must be complete programs
-Any submission which fails to execute 2 out of 3 times will be disqualified.
  §2.0: Submissions must satisfy the size requirements
  §2.1: The size of your submission must not exceed 4096 bytes
  §2.2: The number of bytes, excluding whitespace (space, tab, newline, return, formfeed) and certain control characters (;, {, }) followed by whitespace, while counting the JavaScript keywords as 1 byte, must not exceed 2048.</description>
