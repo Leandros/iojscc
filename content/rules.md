@@ -47,7 +47,7 @@ license.<br>
 - **§9.0: Submissions will be run using NodeJS 10.13.0 LTS. No further guarantees about execution environment. There will be no network connection.**
 
 - **§10.0: Submissions must not create nor modify files above the current directory, with the exception of `/tmp`**<br>
-Submissions may create files and directories below the current directory, or in `/tmp`, provided that neither starts with `.` (dot). Do not assume the existance of any files.
+Submissions may create files and directories below the current directory, or in `/tmp`, provided that neither starts with `.` (dot). Do not assume the existence of any files.
 
 - **§10.0: Submissions must be received prior to the end of the contest**<br>
 Submissions will **open on December 1st 2018 00:00 UTC**.<br>

@@ -23,7 +23,7 @@ the worst JavaScript each year.
 
 - Write an obfuscated JavaScript program, following the [outlined rules](/rules)
 - Illustrate creative abuse of the JavaScript runtime
-- Demonstrating the subleties of JavaScript and NodeJS
+- Demonstrating the subtleties of JavaScript and NodeJS
 - Having fun!
 
 ## How To Enter
