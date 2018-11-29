@@ -77,6 +77,8 @@ function checkCode() {
     var word = '';
     var prev = '';
     var c = code[0];
+    if (!isSpace(code[code.length - 1]))
+      code += '\n';
     for (var i = 0; i < code.length; ++i, prev = c, c = code[i]) {
         console.log('c:', c);
 
