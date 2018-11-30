@@ -37,7 +37,9 @@ The subject must be exactly:
     IOJCC 2019
 
 
-All other mails will be rejected.
+The submission must be named `index.js` and attached to the email.<br>
+Please read the [rules](/rules) carefully before submitting.<br>
+**All submissions not following the [rules](/rules) will be disqualified.**
 
 
 <a name="news"></a>

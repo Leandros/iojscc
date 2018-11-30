@@ -45,24 +45,65 @@ var keywords = [
     'false',
 ];
 
+/*
+ * Taken from:
+ * https://stackoverflow.com/a/18729931/1070117
+ */
+function toUTF8Array(str) {
+    var utf8 = [];
+    for (var i=0; i < str.length; i++) {
+        var charcode = str.charCodeAt(i);
+        if (charcode < 0x80) utf8.push(charcode);
+        else if (charcode < 0x800) {
+            utf8.push(0xc0 | (charcode >> 6),
+                      0x80 | (charcode & 0x3f));
+        }
+        else if (charcode < 0xd800 || charcode >= 0xe000) {
+            utf8.push(0xe0 | (charcode >> 12),
+                      0x80 | ((charcode>>6) & 0x3f),
+                      0x80 | (charcode & 0x3f));
+        }
+        // surrogate pair
+        else {
+            i++;
+            // UTF-16 encodes 0x10000-0x10FFFF by
+            // subtracting 0x10000 and splitting the
+            // 20 bits of 0x0-0xFFFFF into two halves
+            charcode = 0x10000 + (((charcode & 0x3ff)<<10)
+                      | (str.charCodeAt(i) & 0x3ff));
+            utf8.push(0xf0 | (charcode >>18),
+                      0x80 | ((charcode>>12) & 0x3f),
+                      0x80 | ((charcode>>6) & 0x3f),
+                      0x80 | (charcode & 0x3f));
+        }
+    }
+    return utf8;
+}
+
 function isSpace(c) {
-    return c === ' ' || c === '\t' || c === '\n' || c === '\r' || c === '\f';
+    return c === 32  /* ' ' */
+        || c === 9   /* '\t' */
+        || c === 10  /* '\n' */
+        || c === 12  /* '\f' */
+        || c === 13; /* '\r' */
 }
 
 function isLowercase(c) {
-    c = c.charCodeAt(0);
     return c > 96 && c < 123;
 }
 
 function isCtrl(c) {
-    return c === ';' || c === '{' || c === '}';
+    return c === 59   /* ';' */
+        || c === 123  /* '{' */
+        || c === 125; /* '}' */
 }
 
 function checkCode() {
     var elsize = document.getElementById('size-span');
     var elbytes = document.getElementById('bytes-span');
 
-    var code = document.getElementById('code-textarea').value;
+    var code = toUTF8Array(document.getElementById('code-textarea').value);
+    console.log(code);
 
     /* Full size: */
     elsize.innerHTML = code.length + ' bytes';
@@ -74,29 +115,30 @@ function checkCode() {
 
     /* Counted bytes: */
     var bytes = 0;
-    var word = '';
-    var prev = '';
+    var word = [];
+    var prev = 0;
     var c = code[0];
     if (!isSpace(code[code.length - 1]))
-      code += '\n';
+      code.push(10 /* '\n' */);
     for (var i = 0; i < code.length; ++i, prev = c, c = code[i]) {
 
         /* Currently in a word? */
         if (isLowercase(c)) {
-            word += c;
+            word.push(c);
             continue;
         }
 
         /* End of word? */
         if (word.length > 0) {
             /* Word not a keyword. Count it in full! */
-            if (!keywords.find(function(e){ return e === word; })) {
+            var w = word.map(function(e){return String.fromCharCode(e);}).join('');
+            if (!keywords.find(function(e){ return e === w; })) {
                 bytes += word.length;
-                word = '';
+                word = [];
                 continue;
             } else {
                 bytes += 1;
-                word = '';
+                word = [];
             }
         }
 

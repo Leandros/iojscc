@@ -35,10 +35,10 @@ Q: How can I contact the people behind this?</description>
       <guid>https://iojcss.org/rules/</guid>
       <description>To make sure your submission will be considered, we ask you to follow these rules.
 Please read them carefully before submission.
- §1.0: Submissions must be complete programs
- §2.0: Submissions must satisfy the size requirements
- §2.1: The size of your submission must not exceed 4096 bytes
- §2.2: The number of bytes, excluding whitespace (space, tab, newline, return, formfeed) and certain control characters (;, {, }) followed by whitespace, while counting the JavaScript keywords as 1 byte, must not exceed 2048.</description>
+ § 1 Submissions must be complete programs
+ § 2 Submissions must satisfy the size requirements
+ 1. The size of your submission must not exceed 4096 bytes
+ 2. The number of bytes, excluding whitespace (space, tab, newline, return, formfeed) and certain control characters (;, {, }) followed by whitespace, while counting the JavaScript keywords as 1 byte, must not exceed 2048.</description>
     </item>
     
     <item>
@@ -48,7 +48,7 @@ Please read them carefully before submission.
       
       <guid>https://iojcss.org/size/</guid>
       <description>Copy your code below, and click submit.
- var keywords = [ &#39;break&#39;, &#39;case&#39;, &#39;catch&#39;, &#39;class&#39;, &#39;const&#39;, &#39;continue&#39;, &#39;debugger&#39;, &#39;default&#39;, &#39;delete&#39;, &#39;do&#39;, &#39;else&#39;, &#39;export&#39;, &#39;extends&#39;, &#39;finally&#39;, &#39;for&#39;, &#39;function&#39;, &#39;if&#39;, &#39;import&#39;, &#39;in&#39;, &#39;instanceof&#39;, &#39;new&#39;, &#39;return&#39;, &#39;super&#39;, &#39;switch&#39;, &#39;this&#39;, &#39;throw&#39;, &#39;try&#39;, &#39;typeof&#39;, &#39;var&#39;, &#39;void&#39;, &#39;while&#39;, &#39;with&#39;, &#39;yield&#39;, &#39;await&#39;, &#39;null&#39;, &#39;true&#39;, &#39;false&#39;, ]; function isSpace(c) { return c === &#39; &#39; || c === &#39;\t&#39; || c === &#39;\n&#39; || c === &#39;\r&#39; || c === &#39;\f&#39;; } function isLowercase(c) { c = c.</description>
+ var keywords = [ &#39;break&#39;, &#39;case&#39;, &#39;catch&#39;, &#39;class&#39;, &#39;const&#39;, &#39;continue&#39;, &#39;debugger&#39;, &#39;default&#39;, &#39;delete&#39;, &#39;do&#39;, &#39;else&#39;, &#39;export&#39;, &#39;extends&#39;, &#39;finally&#39;, &#39;for&#39;, &#39;function&#39;, &#39;if&#39;, &#39;import&#39;, &#39;in&#39;, &#39;instanceof&#39;, &#39;new&#39;, &#39;return&#39;, &#39;super&#39;, &#39;switch&#39;, &#39;this&#39;, &#39;throw&#39;, &#39;try&#39;, &#39;typeof&#39;, &#39;var&#39;, &#39;void&#39;, &#39;while&#39;, &#39;with&#39;, &#39;yield&#39;, &#39;await&#39;, &#39;null&#39;, &#39;true&#39;, &#39;false&#39;, ]; /* * Taken from: * https://stackoverflow.com/a/18729931/1070117 */ function toUTF8Array(str) { var utf8 = []; for (var i=0; i  6), 0x80 | (charcode &amp; 0x3f)); } else if (charcode = 0xe000) { utf8.</description>
     </item>
     
     <item>
