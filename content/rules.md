@@ -23,12 +23,13 @@ Please read them carefully before submission.
 
     - **2.** Special privileges (root, special ownership, etc)
 
+    - **3.** Internet connection
+
 - **§ 4 Submissions must not modify themselves**<br>
 If any modification is desired, it must first copy the file to a new filename,
 ensuring the original file is not touched in the process.
 
 - **§ 5 Submissions will be run using NodeJS 10.13.0 LTS on Linux (x86_64)**<br>
-There will be no further guarantees about the execution environment.<br>
 
 - **§ 6 Submissions must not create nor modify files above the current directory, with the exception of `/tmp`**<br>
 Submissions may create files and directories below the current directory, or in `/tmp`, provided that neither starts with `.` (dot). Do not assume the existence of any files.
@@ -37,7 +38,7 @@ Submissions may create files and directories below the current directory, or in 
 The author must own the rights to the submitted source code and all attached works
 and agree to license their content under the [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 license.<br>
-**You must not submit anything that cannot be submitted under that license.**
+*You must not submit anything that cannot be submitted under that license.*
 
 - **§ 8 Each natural person may submit up to 10 entries per contest**
 
