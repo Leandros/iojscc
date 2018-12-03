@@ -37,7 +37,7 @@ The subject must be exactly:
     IOJCC 2019
 
 
-The submission must be named `index.js` and attached to the email.<br>
+The email must contain a link to a secret [Gist](https://gist.github.com/) containing an `index.js`.<br>
 Please read the [rules](/rules) carefully before submitting.<br>
 **All submissions not following the [rules](/rules) will be disqualified.**
 

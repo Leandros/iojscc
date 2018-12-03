@@ -57,7 +57,8 @@ Submissions will **open on December 1st 2018 00:00 UTC**.<br>
 Submissions will **close on March 1st 2019 00:00 UTC**.
 
 - **§ 13 Submissions must be done via email**<br>
-All files to be submitted must be attached to the email.<br>
+All files to be submitted must be in a secret [Gist](https://gist.github.com/).
+The link to the Gist must be in the email.<br>
 To submit send an email to 2019 @ iojcc [dot] org.<br>
 The subject must be *exactly* `IOJCC 2019`.<br>
 A confirmation email will be sent to the submitter.
