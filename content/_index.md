@@ -45,4 +45,5 @@ Please read the [rules](/rules) carefully before submitting.<br>
 <a name="news"></a>
 # News
 
+- **2019/31/01** - Announced [Jscrambler](https://jscrambler.com/?utm_source=iojcc.org&utm_medium=referral) as our first [partner](/partner)
 - **2018/01/12** - First IOJCC Announced
