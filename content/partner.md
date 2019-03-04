@@ -8,5 +8,5 @@ The International Obfuscated JavaScript Contest is proudly partnering with:
 - [arvid.io](https://arvid.io) - Thoughts on programming and more
 
 
-Want to become a partner? Contact us at judges [at] iojcc [dot] org.
+Want to become a partner? Contact us at judges [at] iojscc [dot] org.
 

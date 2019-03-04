@@ -15,4 +15,4 @@ Title: FAQ
 **A:** The contest will open roughly once per year. Watch this space for the announcement.
 
 **Q: How can I contact the people behind this?**<br>
-**A:** You can reach us via email at judges @ iojcc [dot] org
+**A:** You can reach us via email at judges @ iojscc [dot] org

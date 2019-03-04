@@ -59,13 +59,13 @@ Submissions will **close on March 1st 2019 00:00 UTC**.
 - **§ 13 Submissions must be done via email**<br>
 All files to be submitted must be in a secret [Gist](https://gist.github.com/).
 The link to the Gist must be in the email.<br>
-To submit send an email to 2019 @ iojcc [dot] org.<br>
-The subject must be *exactly* `IOJCC 2019`.<br>
+To submit send an email to 2019 @ iojscc [dot] org.<br>
+The subject must be *exactly* `IOJSCC 2019`.<br>
 A confirmation email will be sent to the submitter.
 
 - **§ 14 The email address used for submitting must be able to receive emails**<br>
 Entries submitted without a working or valid email address will be disqualified.
 
 
-*IOJCC Rules v1.0.2*
+*IOJSCC Rules v1.0.2*
 
