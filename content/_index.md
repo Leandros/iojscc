@@ -34,7 +34,7 @@ All submissions must be sent via email to
 
 The subject must be exactly:
 
-    IOJCC 2019
+    IOJSCC 2019
 
 
 The email must contain a link to a secret [Gist](https://gist.github.com/) containing an `index.js`.<br>
@@ -45,5 +45,6 @@ Please read the [rules](/rules) carefully before submitting.<br>
 <a name="news"></a>
 # News
 
+- **2019/04/03** - Rebranded as IOJSCC
 - **2019/31/01** - Announced [Jscrambler](https://jscrambler.com/?utm_source=iojcc.org&utm_medium=referral) as our first [partner](/partner)
 - **2018/01/12** - First IOJCC Announced

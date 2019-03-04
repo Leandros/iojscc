@@ -1,4 +1,4 @@
-baseURL = "https://iojcss.org/"
+baseURL = "https://iojscc.org/"
 languageCode = "en-us"
 title = "The International Obfuscated JavaScript Code Contest"
 theme = "xmin"
