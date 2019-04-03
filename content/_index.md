@@ -8,7 +8,7 @@ Inspired by The International Obfuscated C Code Contest, the obfuscated
 JavaScript contest has been founded in late 2018, with the goals of crowning
 the worst JavaScript each year.
 
-**This IOJSCC runs from:** *2018-Dec-01 00:00:00 UTC* **to** *2019-Mar-01 00:00:00 UTC*
+**This IOJSCC runs from:** *2018-Dec-01 00:00:00 UTC* **to** *2019-June-01 00:00:00 UTC*
 
 
 <span class="subheader h3">**Obfuscate** *[verb]*<br></span>

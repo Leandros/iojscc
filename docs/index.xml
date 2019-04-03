@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on The International Obfuscated JavaScript Code Contest</title>
-    <link>https://iojcss.org/</link>
+    <link>https://iojscc.org/</link>
     <description>Recent content in Home on The International Obfuscated JavaScript Code Contest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://iojcss.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://iojscc.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>FAQ</title>
-      <link>https://iojcss.org/faq/</link>
+      <link>https://iojscc.org/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://iojcss.org/faq/</guid>
+      <guid>https://iojscc.org/faq/</guid>
       <description>Q: Is this related to the IOCCC?
 A: It&amp;rsquo;s been inspired by it, but it&amp;rsquo;s completely unrelated.
 Q: Who are the judges?
@@ -29,20 +29,20 @@ Q: How can I contact the people behind this?</description>
     
     <item>
       <title>Partner</title>
-      <link>https://iojcss.org/partner/</link>
+      <link>https://iojscc.org/partner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://iojcss.org/partner/</guid>
+      <guid>https://iojscc.org/partner/</guid>
       <description>The International Obfuscated JavaScript Contest is proudly partnering with:
- Jscrambler - From code to webpage, Jscrambler is the #1 security solution to tamper proof your web application arvid.io - Thoughts on programming and more  Want to become a partner? Contact us at judges [at] iojcc [dot] org.</description>
+ Jscrambler - From code to webpage, Jscrambler is the #1 security solution to tamper proof your web application arvid.io - Thoughts on programming and more  Want to become a partner? Contact us at judges [at] iojscc [dot] org.</description>
     </item>
     
     <item>
       <title>Rules</title>
-      <link>https://iojcss.org/rules/</link>
+      <link>https://iojscc.org/rules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://iojcss.org/rules/</guid>
+      <guid>https://iojscc.org/rules/</guid>
       <description>To make sure your submission will be considered, we ask you to follow these rules.
 Please read them carefully before submission.
  § 1 Submissions must be complete programs
@@ -53,20 +53,20 @@ Please read them carefully before submission.
     
     <item>
       <title>Size Tool</title>
-      <link>https://iojcss.org/size/</link>
+      <link>https://iojscc.org/size/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://iojcss.org/size/</guid>
+      <guid>https://iojscc.org/size/</guid>
       <description>Copy your code below, and click submit.
  var keywords = [ &#39;break&#39;, &#39;case&#39;, &#39;catch&#39;, &#39;class&#39;, &#39;const&#39;, &#39;continue&#39;, &#39;debugger&#39;, &#39;default&#39;, &#39;delete&#39;, &#39;do&#39;, &#39;else&#39;, &#39;export&#39;, &#39;extends&#39;, &#39;finally&#39;, &#39;for&#39;, &#39;function&#39;, &#39;if&#39;, &#39;import&#39;, &#39;in&#39;, &#39;instanceof&#39;, &#39;new&#39;, &#39;return&#39;, &#39;super&#39;, &#39;switch&#39;, &#39;this&#39;, &#39;throw&#39;, &#39;try&#39;, &#39;typeof&#39;, &#39;var&#39;, &#39;void&#39;, &#39;while&#39;, &#39;with&#39;, &#39;yield&#39;, &#39;await&#39;, &#39;null&#39;, &#39;true&#39;, &#39;false&#39;, ]; /* * Taken from: * https://stackoverflow.com/a/18729931/1070117 */ function toUTF8Array(str) { var utf8 = []; for (var i=0; i  6), 0x80 | (charcode &amp; 0x3f)); } else if (charcode = 0xe000) { utf8.</description>
     </item>
     
     <item>
       <title>Winner</title>
-      <link>https://iojcss.org/winner/</link>
+      <link>https://iojscc.org/winner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://iojcss.org/winner/</guid>
+      <guid>https://iojscc.org/winner/</guid>
       <description>Contest currently ongoing. Winners will be announced after closing.</description>
     </item>
     

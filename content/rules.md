@@ -54,7 +54,7 @@ license.<br>
 
 - **§ 12 Submissions must be received prior to the end of the contest**<br>
 Submissions will **open on December 1st 2018 00:00 UTC**.<br>
-Submissions will **close on March 1st 2019 00:00 UTC**.
+Submissions will **close on June 1st 2019 00:00 UTC**.
 
 - **§ 13 Submissions must be done via email**<br>
 All files to be submitted must be in a secret [Gist](https://gist.github.com/).
